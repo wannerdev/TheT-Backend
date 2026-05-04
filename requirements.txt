@@ -1,9 +1,10 @@
-django
+django>=3.2,<4.0
 gunicorn
-django-heroku
+dj-database-url
+psycopg2-binary
+whitenoise
 python-socketio==4.6.1
 eventlet
 pyllist
 python-dotenv
 requests
-asyncio
